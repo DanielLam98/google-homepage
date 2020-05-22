@@ -1,23 +1,55 @@
-<!DOCTYPE html>
+<!DOCTYPE html>   <!--Daniel Lam Recreation of Google Homepage-->
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <nav>
+           <ul id="left-top-nav">
+               <li><a href="index.html">About</a></li>
+               <li><a href="store.html">Store</a></li>
+           </ul> 
+        </nav>
+        <nav>
+            <ul id="right-top-nav">
+                <li><a href="gmail.html">Gmail</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li id="sign-in"><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
         <div class="logo-container">
          <img id="logo" src="pictures/googlelogo.png" alt="google logo">
-         <form>
+         <form id="search-bar-hover">
              <input type="text" id="search-bar" name="search-bar" size="90">
          </form>
          <form id="google-search">
              <center>
-             <input type="submit" class="search" name="search" value="Google Search">
-             <input type="submit" class="search" name="Feeling-Lucky" value="I'm Feeling Lucky">
+             <span><input type="submit" class="search" name="search" value="Google Search"></span>
+             <span><input type="submit" class="search" name="Feeling-Lucky" value="I'm Feeling Lucky"></span>
              </center>
          </form>
          </div>
          <div id="language-offered">
             <p>Google offered in: <a href="url">Tiếng Việt</a><a href="url"> Français</a></p>
          </div>
+         <footer>
+             <nav>
+                 <ul id="bottom-first-nav">
+                     <li>Canada</li>
+                 </ul>
+             </nav>
+             <nav>
+                 <ul id="bottom-second-nav-left">
+                    <li><a href="#adv">Advertising</a></li>
+                    <li><a href="#busi">Business</a></li>
+                    <li><a href="#how">How Search Works</a></li>
+                </ul>
+                <ul id="bottom-second-nav-right">
+                    <li><a href="#Privacy">Privacy</a></li>
+                    <li><a href="#Terms">Terms</a></li>
+                    <li><a href="#Settings">Settings</a></li>
+                </ul>
+             </nav>
+            </footer>
     </body>
 </html>
