@@ -1,0 +1,44 @@
+.logo-container{
+    text-align: center;
+    padding-top:100px;
+}
+#search-bar{
+    border-radius: 25px;
+    height:40px;
+    border: 1px solid #C7C6C1;
+}
+#logo{
+    padding-bottom:25px;
+}
+#search-bar :hover{
+    box-shadow: 0px 1px 1px grey;
+}
+#google-search{
+    padding-top:16px;
+}
+.search{
+    padding: 0 16px;
+    margin: 11px 4px;
+    size:"20";
+    text-align: center;
+    position:center;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    height: 36px;
+    min-width: 54px;
+    font-family: arial, sans-serif;
+    font-size:14px;
+    color:#5F6368;
+}
+#language-offered{
+    text-align: center;
+    padding-top:15px;
+    font-size: 12px;
+    font-family:arial, sans-serif;
+}
+#language-offered a{
+    text-decoration: none;
+}
+*{box-sizing: border-box; margin: 0; padding: 0}
+body, html{height: 100%;}
